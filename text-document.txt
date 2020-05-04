@@ -1,0 +1,7 @@
+ls = see all files in the directory
+mkdir test = make a folder name 'test' in the directory
+rmdir test = delete a folder
+touch index.html = make index.html in the directory
+rm index.html = delete index.html
+cd folderName = select a folder
+cd .. = go back to parent directory
