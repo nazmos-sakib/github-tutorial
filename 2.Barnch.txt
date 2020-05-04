@@ -1,0 +1,10 @@
+git branch newbranch (git checkout -b newbranch)
+git branch -a
+git checkout newbranch
+git add .
+git commit -m "js file added"
+
+
+========Delete Branch========
+first come to master branch by => git checkout master
+=> git branch -D newbranch
