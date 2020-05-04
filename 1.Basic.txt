@@ -1,0 +1,47 @@
+git init
+git status
+
+git add . / git add index.html (for stage)
+git status
+
+git rm -r --cached . / git rm --cached index.html (for unstage)
+git status
+
+=============================================================================
+
+git add .
+git commit -m "added index file"
+git add .
+git commit -m "stylesheet added"
+git add .
+git commit -m "header added in index"
+git add .
+git commit -m "header added in index"
+
+git log / git log --oneline (for see commit history)
+
+=============================================================
+|     			Delete Things			    |
+=============================================================
+1. git checkout 2760c25 (id from git log --oneline)
+   git checkout master (changes file are back)
+   (Undo able)
+
+2. git revert 28a169d
+   press = Shift : wq
+   
+   (Undo able)
+
+3. git reset 2760c25 (available in editor bt not added)
+   git reset 2760c25 --hard
+   (Permanent delete)
+
+git reset 3464f94
+
+
+
+
+
+
+
+
