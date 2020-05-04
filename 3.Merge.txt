@@ -1,0 +1,1 @@
+git merge newbranch1 (all files added in master from newbranch1)
